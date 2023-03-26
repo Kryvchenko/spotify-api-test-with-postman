@@ -1,6 +1,6 @@
-## Endpoint testing of the Spotify Music App with Postman
+# Endpoint testing of the Spotify Music App with Postman
 
-# For the security reasons user_id, client_secret and client_id has been removed from the project, please use your own credentials
+### For the security reasons user_id, client_secret and client_id has been removed from the project, please use your own credentials
 
 <a href="https://open.spotify.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="spotify" width="200" height="200"/></a>
 
