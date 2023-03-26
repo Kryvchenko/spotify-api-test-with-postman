@@ -19,9 +19,13 @@
 ## Brief logical explanation of the testing flow:
 
 - GET request for `Search artists and songs` were implemented to save artists id to env variable, and able to search through top tracks. Status code and variable assertions were added.
-- GET request for `Top tracks` to get track from the env variables that user like to add (if you would like to change track or artist just go to `spotify env` and add your personal choice. Thought all test env variables were used to make scenarios dynamic). Also logic were added to loop through the response body and extract track URI for farther implementation of test scenario. Status code and variable assertions were added.
-- 
- 
+- GET request for `Top tracks` to get a track from the env variables that the user like to add (if you would like to change track or artist just go to `spotify env` and add your personal choice. Thought all test env variables were used to make scenarios dynamic). Also, logic was added to loop through the response body and extract track URI for further implementation of the test scenario. Status code and variable assertions were added.
+- POST request for `Add new playlist`, data in the request body is dynamic and can be changed from the `spotify env` 
+- GET request for `Find playlist` with the purpose to assert that the playlist was added successfully 
+- POST request for `Add item to playlist` and save it's id to a variable for future manipulations
+- PUT request for `Update playlist title`
+- DELETE request for `Remove item from the playlist` for CRUD cycle completion 
+  
 
 
 
