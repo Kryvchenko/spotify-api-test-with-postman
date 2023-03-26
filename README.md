@@ -1,11 +1,10 @@
 ## Endpoint tetting of the Spotify Music App with Postman
 
-
 <a href="https://open.spotify.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="spotify" width="200" height="200"/></a>
 
 # Pre-requisites:
 
- - fork this collection, make sure to select environment `spotify env`
+ - fork this collection in Postman, make sure to select environment `spotify env`
  - create or use existing Spotify account (go to `https://www.spotify.com/es/account/overview/` and copy Username, after past it to the environment variable `spotify env` in user_id field)
  - create a spotify app `https://developer.spotify.com/dashboard/applications`, inside new app hit `edit settings button` and add this: `https://oauth.pstmn.io/v1/browser-callback` to `RedirectURIs` field, click add button, save changes.
  - copy client id and client secret from newly created spotify app and add them both to `spotify env` in respective fields
